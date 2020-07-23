@@ -1,12 +1,222 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+
+    <body>
+
+        <h1>Chapter 42 to 48</h1>
+        <h1>Q No 1</h1>
+
+        <a href="" onclick="kk()">Click Me</a>
     
-</body>
-<script src="app.js"></script>
+    
+        <br>
+    
+        <h1>Q no 2</h1>
+    
+        <img src="img/1.jpg" alt="" srcset="" width="200" height="300" onclick="phones()">
+        <img src="img/2.jpg" alt="" srcset="" width="200" height="300" onclick="phones()">
+        <img src="img/1.jpg" alt="" srcset="" width="200" height="300" onclick="phones()">
+        <img src="img/2.jpg" alt="" srcset="" width="200" height="300" onclick="phones()">
+    
+        <br>
+    
+        <h1>Q no 3</h1>
+    
+        <table border="1px">
+            <tr>
+                <td>Index</td>
+                <td>Names</td>
+                <td>Class</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>warisha</td>
+                <td>10</td>
+                <td><button onclick="deleteBtn1()" id="dlt-btn1">Delete</button></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>sheza</td>
+                <td>9</td>
+                <td><button onclick="deleteBtn2()" id="dlt-btn2">Delete</button></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>soma</td>
+                <td>8</td>
+                <td><button onclick="deleteBtn3()" id="dlt-btn3">Delete</button></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Umair</td>
+                <td>8</td>
+                <td><button onclick="deleteBtn4()" id="dlt-btn4">Delete</button></td>
+            </tr>
+        </table>
+    
+    
+        <br>
+    
+        <h1>Q no 4</h1>
+    
+        <img src="img/1.jpg" alt="" onmouseover="changeImage()" onmouseout="changeImageBefore()" id="imgforchange" width="500" height="400">
+    
+    
+    
+        <br>
+    
+        <h1>Q no 5</h1>
+    
+    
+        <input type="text" id="counter" style="border: 1px solid black; padding: 10px; width: 200px; text-align: center;"><br>
+        <button onclick="increase()">Increase</button>
+        <button onclick="decrease()">Decrease</button>
+
+
+
+
+
+
+        <h1>chapter 49 to 52</h1>
+        <h1>Q no 1</h1>
+    <br>
+
+    <form>
+        <input type="name" placeholder="First Name" id="fname"><br>
+        <input type="name" placeholder="Last Name" id="lname"><br>
+        <input type="email" placeholder="Email" id="email"><br>
+        <input type="text" placeholder="Phone Number" id="pnumber"><br>
+        <input type="password" placeholder="Password" id="password"><br>
+        <input type="submit" onclick="formsubmit()">
+    </form>
+    
+
+    <br>
+
+    <h1>Q no 2</h1>
+
+
+    <img src="img/1.jpg" alt="" width="400" height="300">
+    <p id="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti autem magni facere. Corporis alias dolor nulla quisquam, architecto laudantium, aperiam ab sapiente eum repellendus explicabo laboriosam qui necessitatibus ipsam tenetur.</p>
+    <a style="color: blue; cursor: pointer;" onclick="moreText()" id="readmorebtn">Read More.</a>
+
+
+
+    <br>
+
+    <h1>Q no 3</h1>
+
+    <form>
+        <input type="name" name="" id="stdname" placeholder="Name"><br>
+        <input type="class" id="stdclass" placeholder="Class"><br>
+        <input type="age" id="stdage" placeholder="Age"><br>
+    </form>
+    <button onclick="formSubmit()">Submit</button>
+
+    <table id="stdlist" border="1px">
+        <tr>
+            <td>Std Name</td>
+            <td>Class</td>
+            <td>Age</td>
+        </tr>
+    </table>
+
+
+
+
+<h1>chapter 53 to 57</h1>
+<h1>Q no 1</h1>
+<br>
+<p id="para" style="font-size: 16px;">Hello World</p>
+<button onclick="zoomIn()">Zoom In (+)</button>
+<button onclick="zoomOut()">Zoom Out (-)</button>
+
+<br>
+<br>
+<br>
+
+<h1>Q no 2</h1>
+
+
+<img src="img/14.png" alt="" onclick="showImage(this)" data-toggle="modal" data-target="#exampleModal" height="200" width="200">
+<img src="img/15.jpg" alt="" onclick="showImage(this)" data-toggle="modal" data-target="#exampleModal" height="200" width="200">
+<img src="img/10.jpg" alt="" onclick="showImage(this)" data-toggle="modal" data-target="#exampleModal" height="200" width="200">
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <img src="" alt="" id="modaling" width="455" height="400">
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-primary">Save changes</button>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h1>chapter 58 to 67</h1>
+    <div>
+        <h1> DOM </h1>
+        <div id="form-content" class="content"> <label for="first-name">First Name</label> <input type="text"
+                id="first-name" /> <label for="last-name">Last Name</label> <input type="text" id="last-name" /> <label
+                for="email">Email</label> <input type="text" id="email" /> </div>
+        <div id="main-content" class="content">
+            <p class="render"> First Name : Alex</p>
+            <p class="render" id="lastName">Last Name: Bank</p>
+            <p class="render"> Email : alexbank@example.com</p>
+            <p class="render"> Country : Pakistan </p>
+            <p class="render"> contact : +92 300 1234567</p>
+        </div>
+    </div>
+    
+
+
+
+    
+        
+        <script src="app.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
 </html>
